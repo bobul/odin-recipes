@@ -31,7 +31,7 @@ img {
     text-align:center;
     transition: all 0.2s;
     }
-    h1{
+    h1, h2{
         text-align: center;
         font-size: 60px;
         font-weight: bold;
@@ -40,18 +40,17 @@ img {
         background-clip: text;
         -webkit-background-clip: text;
     }
-    h2{
-    font-size: 50px;
-    font-weight: 600;
-    background-image: url(/images/food.jpg);
-    background-size: 250px;
-    background-repeat: repeat;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    }
     .list{
         border: 2px solid #000;
         border-radius: 20px;
+    }
+    .link{
+        color: black;
+        font-size: 30px;
+    }
+    .link-frame{
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-right: 27cm;
     }
   
